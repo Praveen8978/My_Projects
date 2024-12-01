@@ -26,6 +26,8 @@ The dataset used is the **Iris dataset**, which is widely used for classificatio
 
 This allows us to focus on a binary classification task.
 
+The loss function used is max(0, 1 - y*(w*x - b))^2
+
 ## References
 
 - [SVM with PyTorch - BytePawn](https://bytepawn.com/svm-with-pytorch.html)
